@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bleu"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".congrats_wizard_end2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="157dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="@string/thank_you_for_your_confidence_in_us"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/image"
+            app:srcCompat="@drawable/logo2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="182dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="70dp"
+            android:drawableEnd="@drawable/start_icone"
+            android:fontFamily="@font/abelregular"
+            android:text="@string/go_to_dashboard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/bleu"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_device"
+    android:background="@color/bleu"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="302dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="47dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/abelregular"
+            android:text="@string/please_add_your_child_s_devices"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="346dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/the_information_from_your_child_s_device_will_help_us_to_assess_their_mental_health_duration_of_sleep_places_visited_used_applications_etc_it_also_gives_you_the_ability_to_block_or_allow_installed_applications"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/please_follow_the_following_steps"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/_1_bring_your_child_s_mobile_phone"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:alpha="0.86"
+            android:text="@string/_2_scan_this_qr_code_with_your_child_s_device_camera"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:alpha="0.86"
+            android:text="@string/_3_you_will_be_redirected_to_the_4in_shield_application_download_page"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:alpha="0.86"
+            android:text="@string/_4_once_the_application_is_installed_click_next"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            app:srcCompat="@drawable/qr_code"
+            android:contentDescription="@string/image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="68dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/skip"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/bleu"
+                android:textSize="18sp"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:drawableEnd="@drawable/start_icone"
+                android:text="@string/next"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/bleu"
+                android:textSize="18sp"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

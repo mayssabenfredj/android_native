@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_child"
+    android:background="@color/bleu"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/addchild"
+            android:contentDescription="@string/image" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="30dp"
+            android:alpha="0.86"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/please_enter_the_required_information_to_complete_your_child_s_profile"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"
+            android:autofillHints=""
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColorHint="#B5AEAE"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/last_name"
+            android:paddingStart="15dp"
+            android:textColorHint="#B5AEAE"
+            android:textSize="14sp"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="@string/gender"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            tools:ignore="RtlSymmetry"
+            android:textColorHint="#B5AEAE"
+            android:textSize="14sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="@string/birth_date"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColorHint="#B5AEAE"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="68dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/skip"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/bleu"
+                android:textSize="18sp"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:drawableEnd="@drawable/start_icone"
+                android:text="@string/next"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/bleu"
+                android:textSize="18sp"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
